@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+server/node_modules/
+
+# Build output
+dist/
+dist-tt/
+dist-web/
+server/dist/
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+server/.env
+key/
+
+# Runtime data (generated on server)
+server/data/runtime-config.json
+server/data/uploads/
+
+# OS & editor
+.DS_Store
+*.textClipping
+
+# Large local import archives (use TOS or server-side import instead)
+assets/*.zip
+
+# Logs & cache
+*.log
+.turbo/
+.cache/
+server/dist/tsconfig.tsbuildinfo
